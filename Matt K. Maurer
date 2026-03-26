@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matt K. Maurer Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+* { font-family: 'Inter', sans-serif; }
+.font-display { font-family: 'Syne', sans-serif; }
+
+:root {
+  --background: #0a0a0f;
+  --surface: #16161f;
+  --text: #f0f0f5;
+  --primary: #8b5cf6;
+  --secondary: #06b6d4;
+}
+
+body { background: var(--background); color: var(--text); }
+
+.card:hover { transform: translateY(-8px); transition: 0.3s; }
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="text-center py-20 px-6">
+<h1 class="font-display text-6xl font-bold mb-4">Matt K. Maurer</h1>
+
+<p class="text-xl opacity-70 mb-8">
+Crafting immersive podcast experiences that captivate audiences and elevate brands
+</p>
+
+<div class="flex justify-center gap-10 mt-10">
+<div>
+<h2 class="text-3xl font-bold text-purple-400">150+</h2>
+<p class="text-sm opacity-60">Episodes Produced</p>
+</div>
+
+<div>
+<h2 class="text-3xl font-bold text-purple-400">1,500+</h2>
+<p class="text-sm opacity-60">Total Downloads</p>
+</div>
+
+<div>
+<h2 class="text-3xl font-bold text-purple-400">15+</h2>
+<p class="text-sm opacity-60">Happy Clients</p>
+</div>
+</div>
+</section>
+
+<!-- WORK -->
+<section class="py-20 px-6">
+<h2 class="text-center text-4xl font-display mb-12">Featured Productions</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<a href="https://open.spotify.com/episode/3oDVuaHlzgYl9lbST8N7L0?si=qSivNpriQkO-CF80jjjQIQ" target="_blank" class="card p-6 rounded-xl bg-gray-900">
+<span class="text-sm text-purple-400">Collecting / Entrepreneurship</span>
+<h3 class="text-xl font-bold mt-2">The Sports Card Hustle</h3>
+<p class="opacity-70 mt-2">Pulling back the curtain on the sports card hobby.</p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=tHHv6rUVPvw&t=454s" target="_blank" class="card p-6 rounded-xl bg-gray-900">
+<span class="text-sm text-cyan-400">Fantasy Football</span>
+<h3 class="text-xl font-bold mt-2">Upper Hand Fantasy</h3>
+<p class="opacity-70 mt-2">Bring you the most valuable fantasy football information and opinions in the most easily consumed way possible.</p>
+</a>
+
+<a href="https://www.youtube.com/watch?v=dTYObS7krmo&t=1233s" target="_blank" class="card p-6 rounded-xl bg-gray-900">
+<span class="text-sm text-orange-400">Sports Comedy</span>
+<h3 class="text-xl font-bold mt-2">Clown Questions</h3>
+<p class="opacity-70 mt-2">A Goosebump Sports podcast hosted by me where there are no dumb questions.</p>
+</a>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="py-20 px-6 text-center max-w-3xl mx-auto">
+
+<img src="https://drive.google.com/uc?export=view&id=1lSr5q2-j3TPgKQYcLX4i16hDfdq0h4zs" 
+class="w-48 h-48 rounded-full mx-auto mb-6 object-cover">
+
+<h2 class="text-4xl font-display mb-4">Passionate About Podcasts</h2>
+
+<p class="opacity-70 mb-6">
+With over 5 years of experience in podcast production, I've helped creators and brands find their unique voice. From sports media to business/entrepreneurship podcasts, I bring the same dedication to every project--delivering polished, professional audio that resonates with audiences worldwide.
+</p>
+
+<p class="text-purple-400 font-bold mb-2">5+ Years Experience</p>
+
+<div class="flex flex-wrap justify-center gap-3 mt-6">
+<span class="bg-gray-800 px-3 py-1 rounded-full">Premiere Pro</span>
+<span class="bg-gray-800 px-3 py-1 rounded-full">Adobe Photoshop</span>
+<span class="bg-gray-800 px-3 py-1 rounded-full">RSS</span>
+<span class="bg-gray-800 px-3 py-1 rounded-full">OBS</span>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="py-20 text-center">
+
+<h2 class="text-4xl font-display mb-4">Let's Work Together</h2>
+
+<a href="mailto:mkmlad@gmail.com" class="bg-purple-600 px-6 py-3 rounded-full inline-block mt-4">
+mkmlad@gmail.com
+</a>
+
+<div class="flex justify-center gap-6 mt-8">
+
+<a href="https://www.tiktok.com/@goosebumpsports" target="_blank">TikTok</a>
+
+<a href="https://www.linkedin.com/in/matt-k-maurer-7b9187198" target="_blank">LinkedIn</a>
+
+<a href="https://drive.google.com/file/d/1HOf7PkeAfFg-yB5HcwxVqgmiv6ZhtmSm/view" target="_blank">Resume</a>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 opacity-50">
+© 2026 Matt K. Maurer. All rights reserved.
+</footer>
+
+</body>
+</html>
